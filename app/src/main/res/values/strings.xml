@@ -4,8 +4,53 @@
     <string name="restaurant">Restaurant</string>
     <string name="mall">Mall</string>
     <string name="event">Event</string>
+    <string name="name">Name</string>
+    <string name="location">Location</string>
+    <string name="rate">Rate</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Park data  -->
+    <string name="alsodah">Al-Sodah</string>
+    <string name="abokhalh">Abo-Khalh</string>
+    <string name="alhableh">Al-Hableh</string>
+    <string name="alsodahLocation">20 KM from Abha</string>
+    <string name="abokhalhLocation">2 KM from Abha center</string>
+    <string name="alhablehLocation">50 KM from Abha</string>
+
+    <!-- Restaurant data  -->
+    <string name="naranj">Naranj Meal</string>
+    <string name="naranjLoc">Al Wardatain, Abha 62521</string>
+    <string name="naranjRate">3.5</string>
+    <string name="revolving">Revolving Restaurant</string>
+    <string name="revolvingLoc"> Al Imam Muhamed Ibn Saud, As Sadd, Abha 62521</string>
+    <string name="revolvingRate">3.8</string>
+    <string name="original">Original Burger</string>
+    <string name="originalLoc">An Nuzhah, Abha 62521</string>
+    <string name="originalRate">4.1</string>
+    <string name="lobster">Lobster Restaurant</string>
+    <string name="lobsterLoc">Shamasan, Abha 62521</string>
+    <string name="lobsterRate">3.5</string>
+
+    <!-- Mall data  -->
+    <string name="asir">Asir Mall</string>
+    <string name="asirLoc">King Fahd Rd, Al-Mozvin, Abha 62583</string>
+    <string name="rashed">Alrashid Mall</string>
+    <string name="rashedLoc">Alrashid Mall</string>
+    <string name="abha">Abha Mall</string>
+    <string name="abhaLoc">As Sharafiyah, Abha 62542</string>
+    <string name="rihana">Rihana Mall</string>
+    <string name="rihanaLoc">Al Andalus, Abha 62521</string>
+
+    <!-- Event data  -->
+    <string name="fireworks">Summer Fireworks</string>
+    <string name="fireworksLoc">Abha Al Jadidah Abha 62512</string>
+    <string name="fireworksTime">11 PM</string>
+    <string name="art">Art Street </string>
+    <string name="artLoc">King Khalid Rd, Al Muftaha</string>
+    <string name="artTime">6:30PM</string>
+    <string name="shop">Shop Exhibitions</string>
+    <string name="shopLoc">Abha International Exhibition Center</string>
+    <string name="shopTime">4 PM</string>
+    <string name="title_activity_maps">Map</string>
+
 
 </resources>

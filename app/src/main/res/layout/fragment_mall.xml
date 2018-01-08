@@ -4,10 +4,15 @@
     android:layout_height="match_parent"
     tools:context="khalidalasiri.abhaguide.MallFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <ListView
+        android:id="@+id/lvMall"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Mall Fregment" />
+        android:paddingBottom="@dimen/dp5"
+        android:paddingLeft="@dimen/dp5"
+        android:paddingRight="@dimen/dp5"
+        android:paddingTop="@dimen/dp5">
 
+
+    </ListView>
 </FrameLayout>
