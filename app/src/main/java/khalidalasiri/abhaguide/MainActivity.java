@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         viewPager = findViewById(R.id.viewPager);
-        MyFPAdapter fpAdapter = new MyFPAdapter(getSupportFragmentManager());
+        MyFPAdapter fpAdapter = new MyFPAdapter(getSupportFragmentManager(),getApplicationContext());
         viewPager.setAdapter(fpAdapter);
     }
 

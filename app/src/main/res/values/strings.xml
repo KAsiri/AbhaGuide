@@ -7,6 +7,7 @@
     <string name="name">Name</string>
     <string name="location">Location</string>
     <string name="rate">Rate</string>
+    <string name="marker">Marker to the location</string>
 
     <!-- Park data  -->
     <string name="alsodah">Al-Sodah</string>

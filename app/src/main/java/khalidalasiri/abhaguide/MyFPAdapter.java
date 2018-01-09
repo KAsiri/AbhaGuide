@@ -1,5 +1,6 @@
 package khalidalasiri.abhaguide;
 
+import android.content.Context;
 import android.content.res.Resources;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -13,17 +14,15 @@ import android.support.v4.app.FragmentPagerAdapter;
 public class MyFPAdapter extends FragmentPagerAdapter {
 
     int pages = 4;
-    Resources r = Resources.getSystem();
-    private String[] titles = new String[]{"Park", "Restaurant", "Mall", "Event"};
-            /*
-            r.getString(R.string.park),
-            r.getString(R.string.restaurant),
-            r.getString(R.string.mall),
-            r.getString(R.string.event)};
-            */
+    private String [] titles ;
 
-    public MyFPAdapter(FragmentManager fm) {
+    public MyFPAdapter(FragmentManager fm, Context c) {
         super(fm);
+        titles = new String[]{c.getResources().getString(R.string.park),
+                c.getResources().getString(R.string.restaurant),
+                c.getResources().getString(R.string.mall),
+                c.getResources().getString(R.string.event)
+        };
     }
 
     @Override
